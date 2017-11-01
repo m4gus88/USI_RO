@@ -5,7 +5,7 @@ Some general changes compared to the original mod are inherent from the realism:
 
 * Agricultural modules will only recycle/produce food. For water and oxygen, you'll have to provide separate converters (take a look at the Water Purifier and the Water Splitter from TACLS).
 * Life Support Recyclers have been removed, as they are extremely unrealistic. Pods and rover command modules have CO2 Scrubbers, but that's it.
-* The switchable containers are not configured yet, but there are Tank Definitions for the MKS resources, so you can store them in Procedural Tanks.
+* The switchable containers now have modular tanks. There's two kind of containers: liquid, and solid. Liquid containers are basically Service Module tanks, so they can hold any fuel, EC, and life support. Solid containers contain all the rest.
 * Because of the way Realism Overhaul works, you probably won't be able to launch and ship large bases in one go.
 
 The mod works with TACLS and USI-LS at the same time, so you can play it with the nice limited Habitation time of USI-LS. However, some settings changes are recommended:
@@ -15,7 +15,8 @@ The mod works with TACLS and USI-LS at the same time, so you can play it with th
 
 So far the mod is playable, but some modules might still have some problems. Feel free to raise these, and I'll address them as soon as I can.
 
-Future plans:
-- Swap switchable containers with modular tanks.
-- Create configs for RP-0
-- Add more converter modules to have a realistic fuel production pipeline.
+Supported mods/parts:
+- Everything from MKS, except engines
+- Malemute rover
+- USI Exploration Pack
+- Freight Transport Technologies (engines WIP)
